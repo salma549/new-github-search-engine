@@ -1,6 +1,6 @@
 {
   "name": "gitbub-search",
-  "home":"/github-user-search/",
+  "homepage":"/github-user-search/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

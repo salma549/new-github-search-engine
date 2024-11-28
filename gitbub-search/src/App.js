@@ -202,7 +202,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route
-            path="/"
+            path="/github-user-search/"
             element={
               <>
                 <Search searchUsers={searchUsers} />
@@ -211,7 +211,7 @@ function App() {
             }
           />
           
-          <Route path="/user/:username" element={<UserPage getUser={getUser} user={user} />} />
+          <Route path="/github-user-search/user/:username" element={<UserPage getUser={getUser} user={user} />} />
         </Routes>
         <Footer />
       </div>
